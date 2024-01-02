@@ -1,0 +1,248 @@
+ #logo {
+      color: #ffdf4f;
+    }
+
+    #titulo {
+      color: #6c757d;
+      font-family: ""proxima-soft", "Proxima Soft", "Proxima Nova Soft", Helvetica, Arial, sans-serif";
+      font-weight: 950;
+    }
+
+    #descripcion {
+      color: #6c757d;
+      font-family: ""proxima-soft", "Proxima Soft", "Proxima Nova Soft", Helvetica, Arial, sans-serif";
+    }
+
+    body {
+      background-color: #0047AB;
+      background-size: cover;
+    }
+
+    .main-section {
+      margin: 0 auto;
+      margin-top: 25%;
+      padding: 0;
+    }
+
+    .user-img {
+      margin-top: -50px;
+      margin-bottom: 35px;
+    }
+
+    .user-img img {
+      width: 100xp;
+      height: 100px;
+      box-shadow: 0px 0px 3px #848484;
+      border-radius: 50%;
+    }
+
+    .form-group input {
+      height: 42px;
+      font-size: 16px;
+      border: 0;
+      padding-left: 54px;
+      border-radius: 5px;
+    }
+
+    .form-group::before {
+      font-family: "Font Awesome\ 5 Free";
+      position: absolute;
+      left: 28px;
+      font-size: 22px;
+      padding-top: 4px;
+    }
+
+    .form-group#user-group::before {
+      content: "\f007";
+    }
+
+    .form-group#contrasena-group::before {
+      content: "\f023";
+    }
+
+    .form-group#divgroup::before {
+      content: "\f303";
+    }
+
+    button {
+      width: 100%;
+      margin: 5px 0 25px;
+    }
+
+    .forgot {
+      padding: 5px 0;
+    }
+
+    .forgot a {
+      color: white;
+    }
+
+
+    #pagina2 {
+      //background-color: #eeeeee;
+    }
+
+    .card-margen {
+      padding: 10px;
+      color: #6c757d;
+      //background:#ddd;
+      margin: 10px auto;
+    }
+
+    .nav-item {
+      padding: 6px;
+      ;
+    }
+
+    // animacion de la copa 
+    .winner-icon {
+      font-size: 100%;
+      color: gold;
+      animation-name: bounce;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes bounce {
+
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+
+    // animacion de la copa  cargando
+    .winner-icon-cargando {
+      font-size: 70px;
+      color: gold;
+      animation-name: bounceCargando;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes bounceCargando {
+
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+
+    // animacion de la copa  2do puest0
+    .winner-icon-segundo {
+      font-size: 70px;
+      color: green;
+      animation-name: bounceSegundo;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes bounceSegundo {
+
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+
+
+
+    //Letra
+    .letra {
+      font-size: 15px;
+      animation: cambioColor 4s infinite;
+    }
+
+    @keyframes cambioColor {
+      0% {
+        color: #FFFF00;
+      }
+
+      25% {
+        color: #FFD700;
+      }
+
+      50% {
+        color: #FFC300;
+      }
+
+      75% {
+        color: #FFA500;
+      }
+
+      100% {
+        color: #FFCC00;
+      }
+    }
+
+    // de la palabra concurso
+    @keyframes pulso {
+      0% {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      50% {
+        opacity: 0.5;
+        transform: scale(1.1);
+      }
+
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .frase-incentivo {
+      font-size: 16px;
+      font-weight: bold;
+      color: #FFD700;
+      animation: pulso 2s infinite;
+    }
+
+    // Copa
+    .containerCopa {
+      justify-content: center
+    }
+
+
+    //Tabla
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #0047AB;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tr:hover {
+      background-color: #dddddd;
+    }
