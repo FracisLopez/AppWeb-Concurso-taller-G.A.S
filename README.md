@@ -5,9 +5,9 @@ Inicio de Sesión: Permite a los usuarios iniciar sesión y elegir roles (Usuari
 
 Dashboard: Muestra estadísticas de ventas y rankings, con gráficos y tablas interactivas.
 
-Registro de Ventas: Los usuarios pueden registrar nuevas ventas, con detalles como código, cliente, producto y cantidad.
+Registro de Vehículos: Los usuarios pueden registrar Vehículos, con detalles como código, cliente, piezas a reparar etc...
 
-Consulta de Resultados: Incluye funcionalidades para ver y actualizar los resultados de ventas y rankings en tiempo real.
+Consulta de Resultados: Incluye funcionalidades para ver y actualizar los resultados de Reparaciones y rankings en tiempo real.
 
 Configuración del Concurso: Sección para ajustar fechas, objetivos y otros detalles del concurso.
 
